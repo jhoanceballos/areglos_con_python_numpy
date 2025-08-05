@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPOF3DQYyhGFmrqC7mQiXHN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jhoanceballos/areglos_con_python_numpy/blob/main/ejemplo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ejemplo de numpy de python"
+      ],
+      "metadata": {
+        "id": "SiFmse2iCku-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "#aleas para recortar el nombre de la libreria para eso es un alias\n",
+        "#numpy es una libreria para trabajar con arreglos, matrices y vectores\n",
+        "#primer ejemplo de uso de numpy con vectores\n",
+        "\n",
+        "#creamos un vector de 10 elementos\n",
+        "vector =np.array([1,2,3,4,5,6,7,8,9,10])\n",
+        "#imprimir el vecto\n",
+        "print(\"vector original:\",vector)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fag-U4FfCwLE",
+        "outputId": "3377bf7a-53bc-44c7-9238-ef2166fd9bac"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "vector original: [ 1  2  3  4  5  6  7  8  9 10]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
